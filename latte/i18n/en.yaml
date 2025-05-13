@@ -1,0 +1,47 @@
+- id: home
+  translation: "Home"
+
+- id: projects
+  translation: "Projects"
+
+- id: notes
+  translation: "Notes"
+
+- id: ml
+  translation: "Machine Learning"
+
+- id: probabilistic_ml
+  translation: "Probabilistic ML"
+
+- id: deep_learning
+  translation: "Deep Learning"
+
+- id: vision
+  translation: "Computer Vision"
+
+- id: embedded
+  translation: "Embedded Systems"
+
+- id: fpga
+  translation: "FPGA & Hardware"
+
+- id: rtos
+  translation: "RTOS & Real-Time"
+
+- id: econ
+  translation: "Network Economics"
+
+- id: game_theory
+  translation: "Game Theory"
+
+- id: search
+  translation: "Search"
+
+- id: about
+  translation: "About"
+
+- id: language
+  translation: "Language"
+
+- id: author
+  translation: "Author"

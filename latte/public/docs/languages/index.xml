@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henry8r8w&#39;s Learning Blog</title>
+    <link>http://localhost:1313/docs/languages/</link>
+    <description>Recent content on Henry8r8w&#39;s Learning Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/docs/languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/languages/french/the-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/languages/french/the-basics/</guid>
+      <description>&lt;h3 id=&#34;under-construction&#34;&gt;&#xA;  Under Construction&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#under-construction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/languages/programming/python/cookbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/languages/programming/python/cookbook/</guid>
+      <description>&lt;h3 id=&#34;under-construction&#34;&gt;&#xA;  Under Construction&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#under-construction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;</description>
+    </item>
+  </channel>
+</rss>

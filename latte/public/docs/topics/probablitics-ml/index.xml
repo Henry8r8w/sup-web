@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>probalitics-ml on Henry8r8w&#39;s Learning Blog</title>
+    <link>http://localhost:1313/docs/topics/probablitics-ml/</link>
+    <description>Recent content in probalitics-ml on Henry8r8w&#39;s Learning Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/docs/topics/probablitics-ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probabilistic Modeling</title>
+      <link>http://localhost:1313/docs/topics/probablitics-ml/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/topics/probablitics-ml/intro/</guid>
+      <description>&lt;h2 id=&#34;core-concepts&#34;&gt;&#xA;  Core Concepts&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#core-concepts&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Prior $P(\theta)$ and likelihood $P(D|\theta)$ form posterior via Bayes Rule.&lt;/li&gt;&#xA;&lt;li&gt;Model uncertainty is critical in embedded ML and safety-critical systems.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;$$&#xA;P(\theta|D) = \frac{P(D|\theta)P(\theta)}{P(D)}&#xA;$$&lt;/p&gt;&#xA;&lt;h2 id=&#34;applications&#34;&gt;&#xA;  Applications&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#applications&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Neural network calibration&lt;/li&gt;&#xA;&lt;li&gt;Monte Carlo simulation&lt;/li&gt;&#xA;&lt;li&gt;Probabilistic inference in robotics&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

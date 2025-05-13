@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Henry8r8w Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Introduction on Henry8r8w Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 2nd Pt</title>
+      <link>http://localhost:1313/docs/blog/2025---2nd-pt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/blog/2025---2nd-pt/</guid>
+      <description>&lt;h3 id=&#34;sup&#34;&gt;&#xA;  Sup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/codes/monte-carlo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/codes/monte-carlo/</guid>
+      <description>&lt;h1 id=&#34;monte-carlo-approximation&#34;&gt;&#xA;  Monte Carlo Approximation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#monte-carlo-approximation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-steps-to-obtain-our-quantity-of-interest&#34;&gt;&#xA;  🏃‍♂️The Steps to Obtain Our Quantity of Interest&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#the-steps-to-obtain-our-quantity-of-interest&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;step-1--generate-s_n-from-the-distribution-x_1-x_n&#34;&gt;&#xA;  Step 1 : Generate $S_n$ from the distribution $X_1, &amp;hellip;X_n$&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1--generate-s_n-from-the-distribution-x_1-x_n&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Various Methods:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Markov Chain Monto Carlo&lt;/li&gt;&#xA;&lt;li&gt;Binomial distribution&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1&#34;&gt;&#xA;  Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Monto Carlo approximation&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed in statistical physics during atomic bomb period&lt;/li&gt;&#xA;&lt;li&gt;Named after the plush gambling casino&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The &lt;strong&gt;expected values&lt;/strong&gt; are what typically asked&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Economics</title>
+      <link>http://localhost:1313/docs/table-of-content/economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/table-of-content/economics/</guid>
+      <description>&lt;h1 id=&#34;-topics&#34;&gt;&#xA;  📚 Topics&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-topics&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Network Economics&lt;/li&gt;&#xA;&lt;li&gt;Game Theory Modeling&lt;/li&gt;&#xA;&lt;li&gt;Pricing&lt;/li&gt;&#xA;&lt;li&gt;Optimization&lt;/li&gt;&#xA;&lt;li&gt;Market Design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;code-simulations&#34;&gt;&#xA;  Code Simulations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#code-simulations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;-blog&#34;&gt;&#xA;  📝 Blog&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-blog&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/Blog/&#34;&gt;Visit Blog Page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>ML Engineering</title>
+      <link>http://localhost:1313/docs/table-of-content/ml-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/table-of-content/ml-engineering/</guid>
+      <description>&lt;h1 id=&#34;-topics&#34;&gt;&#xA;  📚 Topics&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-topics&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Probabilistic Machine Learning&lt;/li&gt;&#xA;&lt;li&gt;Computer Vision&lt;/li&gt;&#xA;&lt;li&gt;Visual Search&lt;/li&gt;&#xA;&lt;li&gt;Information Theory&lt;/li&gt;&#xA;&lt;li&gt;Signals, System and Inference&lt;/li&gt;&#xA;&lt;li&gt;Causal ML&lt;/li&gt;&#xA;&lt;li&gt;Recommender System&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;code-simulations&#34;&gt;&#xA;  Code Simulations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#code-simulations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;-blog&#34;&gt;&#xA;  📝 Blog&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-blog&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/Blog/&#34;&gt;Visit Blog Page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

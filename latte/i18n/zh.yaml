@@ -1,0 +1,55 @@
+- id: home
+  translation: 首页
+
+- id: projects
+  translation: 项目
+
+- id: notes
+  translation: 笔记
+
+- id: ml
+  translation: 机器学习
+
+- id: probabilistic_ml
+  translation: 概率机器学习
+
+- id: deep_learning
+  translation: 深度学习
+
+- id: vision
+  translation: 计算机视觉
+
+- id: embedded
+  translation: 嵌入式系统
+
+- id: fpga
+  translation: FPGA 与硬件
+
+- id: rtos
+  translation: 实时操作系统
+
+- id: econ
+  translation: 网络经济学
+
+- id: game_theory
+  translation: 博弈论
+
+- id: search
+  translation: 搜索
+
+- id: about
+  translation: 关于
+
+- id: language
+  translation: 语言
+
+- id: author
+  translation: 作者
+- id: bookSearchConfig
+  translation: |
+    {
+      encode: false,
+      tokenize: function(str) {
+        return str.replace(/[\x00-\x7F]/g, '').split('');
+      }
+    }
