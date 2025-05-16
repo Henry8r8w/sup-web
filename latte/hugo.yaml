@@ -37,3 +37,7 @@ menu:
     - name: "Github"
       url: "https://github.com/Henry8r8w"
       weight: 10
+
+caches:
+  images:
+    dir: :cacheDir/images

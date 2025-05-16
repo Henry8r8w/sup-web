@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/docs/topics/network-economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/topics/network-economics/matching-in-network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/topics/network-economics/matching-in-network/</guid>
+      <description>&lt;h2 id=&#34;intro-traditional-decentralized-trade&#34;&gt;&#xA;  Intro: Traditional Decentralized Trade&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#intro-traditional-decentralized-trade&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;market-clearing-mechanism-walrasian-auctioneer&#34;&gt;&#xA;  Market Clearing Mechanism: Walrasian Auctioneer&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#market-clearing-mechanism-walrasian-auctioneer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prices are set by a &lt;strong&gt;central auctioneer&lt;/strong&gt; to clear the market.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Agents act as &lt;strong&gt;price takers&lt;/strong&gt;; no strategic pricing or networked trade.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Assumes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Anonymous transactions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Goods and money flow through markets, not individual-to-individual (non-market mechanisms).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;However, in reality:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Many trades happen through &lt;strong&gt;non-market&lt;/strong&gt; mechanisms (e.g., labor, dating, organ exchange).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;decentralized-matching&#34;&gt;&#xA;  Decentralized Matching&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#decentralized-matching&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Modern matching theory models decentralized trade using &lt;strong&gt;bipartite graphs&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

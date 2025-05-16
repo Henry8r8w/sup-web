@@ -1,40 +1,30 @@
++++
+title = "Home"
+bookFlatSection = true
++++
+
+# Welcome
+This is my personal knowledge hub, where I explore and document topics across:
+Each section links to real projects, simulations, and blog reflections — many of which are tied to my GitHub
+
 ---
-title: Introduction
+
+# Blog
+About my life, thoughts, and hobbies — from self-reflection to learning notes.
+- [Visit my Blog Page]({{< ref "Blog.md" >}})
+
 ---
-[ML Engineering](Introduction/ML Engineering/)
-# Acerbo datus maxime
+# Code Simulations
+Explore simulation-focused projects that draw from domains such as game theory, signal processing, modern algorithms, and key areas in AI/ML — including computer vision, recommender systems, and probabilistic inference.
+- [All Simulations]({{< ref "Codes.md" >}})
 
-{{% columns %}}
-## Astris ipse furtiva
-
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
-
-<--->
-
-## Suis quot vota
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{% /columns %}}
+> You'll also find systems-level work spanning embedded development, real-time scheduling, and computer architecture.
 
 
-## Tempora nisi nunc
+---
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+# Topics
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+Structured notes and theory grouped by subject.  
+- [All Topics]({{< ref "Topics.md" >}})
 
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?

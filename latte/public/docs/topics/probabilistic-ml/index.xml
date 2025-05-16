@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/docs/topics/probabilistic-ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/</guid>
+      <description>&lt;h2 id=&#34;the-steps-to-obtain-our-quantity-of-interest&#34;&gt;&#xA;  🏃‍♂️The Steps to Obtain Our Quantity of Interest&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#the-steps-to-obtain-our-quantity-of-interest&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;step-1--generate-s_n-from-the-distribution-x_1-x_n&#34;&gt;&#xA;  Step 1 : Generate $S_n$ from the distribution $X_1, &amp;hellip;X_n$&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1--generate-s_n-from-the-distribution-x_1-x_n&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Various Methods:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Markov Chain Monto Carlo&lt;/li&gt;&#xA;&lt;li&gt;Binomial distribution&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1&#34;&gt;&#xA;  Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Monto Carlo approximation&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed in statistical physics during atomic bomb period&lt;/li&gt;&#xA;&lt;li&gt;Named after the plush gambling casino&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The &lt;strong&gt;expected values&lt;/strong&gt; are what typically asked&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

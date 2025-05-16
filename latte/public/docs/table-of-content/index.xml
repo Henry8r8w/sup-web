@@ -7,19 +7,5 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/docs/table-of-content/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Economics</title>
-      <link>http://localhost:1313/docs/table-of-content/economics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/table-of-content/economics/</guid>
-      <description>&lt;h1 id=&#34;-topics&#34;&gt;&#xA;  📚 Topics&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-topics&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Network Economics&lt;/li&gt;&#xA;&lt;li&gt;Game Theory Modeling&lt;/li&gt;&#xA;&lt;li&gt;Pricing&lt;/li&gt;&#xA;&lt;li&gt;Optimization&lt;/li&gt;&#xA;&lt;li&gt;Market Design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;code-simulations&#34;&gt;&#xA;  Code Simulations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#code-simulations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;-blog&#34;&gt;&#xA;  📝 Blog&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-blog&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/Blog/&#34;&gt;Visit Blog Page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>ML Engineering</title>
-      <link>http://localhost:1313/docs/table-of-content/ml-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/table-of-content/ml-engineering/</guid>
-      <description>&lt;h1 id=&#34;-topics&#34;&gt;&#xA;  📚 Topics&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-topics&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Probabilistic Machine Learning&lt;/li&gt;&#xA;&lt;li&gt;Computer Vision&lt;/li&gt;&#xA;&lt;li&gt;Visual Search&lt;/li&gt;&#xA;&lt;li&gt;Information Theory&lt;/li&gt;&#xA;&lt;li&gt;Signals, System and Inference&lt;/li&gt;&#xA;&lt;li&gt;Causal ML&lt;/li&gt;&#xA;&lt;li&gt;Recommender System&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;code-simulations&#34;&gt;&#xA;  Code Simulations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#code-simulations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;-blog&#34;&gt;&#xA;  📝 Blog&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#-blog&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/Blog/&#34;&gt;Visit Blog Page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
   </channel>
 </rss>

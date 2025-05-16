@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  🏃‍♂️The Steps to Obtain Our Quantity of Interest
+  #
+
+
+  Step 1 : Generate $S_n$ from the distribution $X_1, &hellip;X_n$
+  #
+
+Various Methods:
+
+Markov Chain Monto Carlo
+Binomial distribution
+
+
+  Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$
+  #
+
+Monto Carlo approximation
+
+Developed in statistical physics during atomic bomb period
+Named after the plush gambling casino
+
+The expected values are what typically asked">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/">
+  <meta property="og:site_name" content="Henry8r8w Blog">
+  <meta property="og:title" content="Henry8r8w Blog">
+  <meta property="og:description" content="🏃‍♂️The Steps to Obtain Our Quantity of Interest # Step 1 : Generate $S_n$ from the distribution $X_1, …X_n$ # Various Methods:
+Markov Chain Monto Carlo Binomial distribution Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$ # Monto Carlo approximation
+Developed in statistical physics during atomic bomb period Named after the plush gambling casino The expected values are what typically asked">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Monte Carlo | Henry8r8w Blog</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/">
+<link rel="stylesheet" href="/book.min.e9f68c3fff3d8236a489d16a9caf6de5e4d1a29c20eb4b5524e42cd30be4d319.css" integrity="sha256-6faMP/89gjakidFqnK9t5eTRopwg60tVJOQs0wvk0xk=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.027f247d01b24aedc787c9e6e43afa05720acae8c8bf417d1127d15a678b40c3.js" integrity="sha256-An8kfQGySu3Hh8nm5Dr6BXIKyujIv0F9ESfRWmeLQMM=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});">
+</script>
+
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Henry8r8w Blog</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/table-of-content/" class="">Table of Content</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Blog Page</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/blog/year-2025/" class="">Year 2025</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-45f7e668b052b0157b3dc6687bd20731" class="toggle" checked />
+    <label for="section-45f7e668b052b0157b3dc6687bd20731" class="flex justify-between">
+      <a role="button" class="">Topics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/network-economics/" class="">Networks Economics</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/network-economics/matching-in-network/" class="">Matching in Network</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/probabilistic-ml/" class="">Probabilistic ML</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/probabilistic-ml/monte-carlo/" class="active">Monte Carlo</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/codes/" class="">Code Simulations</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2877beafd626fd4da2dc2aa6eb4a5e75" class="toggle"  />
+    <label for="section-2877beafd626fd4da2dc2aa6eb4a5e75" class="flex justify-between">
+      <a href="/docs/mylife/" class="">My Life</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/Henry8r8w"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Monte Carlo</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-steps-to-obtain-our-quantity-of-interest">🏃‍♂️The Steps to Obtain Our Quantity of Interest</a>
+          <ul>
+            <li><a href="#step-1--generate-s_n-from-the-distribution-x_1-x_n">Step 1 : Generate $S_n$ from the distribution $X_1, &hellip;X_n$</a></li>
+            <li><a href="#step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1">Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$</a></li>
+          </ul>
+        </li>
+        <li><a href="#-the-advantage-of-monto-carlo-over-numerical-integration">😜 The Advantage of Monto Carlo Over Numerical Integration</a></li>
+        <li><a href="#example">📘Example</a>
+          <ul>
+            <li><a href="#delta-example-1--change-of-variables-the-mc-way">$\Delta$ Example 1.  Change of Variables, the MC way</a></li>
+            <li><a href="#-example-2-estimating-pi-by-monte-carlo-integration">🎤 Example 2. Estimating $\pi$ by Monte Carlo Integration</a></li>
+            <li><a href="#example-3-accuracy-of-monte-carlo">🎯Example 3. Accuracy of Monte Carlo</a></li>
+          </ul>
+        </li>
+        <li><a href="#reference">Reference</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="the-steps-to-obtain-our-quantity-of-interest">
+  🏃‍♂️The Steps to Obtain Our Quantity of Interest
+  <a class="anchor" href="#the-steps-to-obtain-our-quantity-of-interest">#</a>
+</h2>
+<h3 id="step-1--generate-s_n-from-the-distribution-x_1-x_n">
+  Step 1 : Generate $S_n$ from the distribution $X_1, &hellip;X_n$
+  <a class="anchor" href="#step-1--generate-s_n-from-the-distribution-x_1-x_n">#</a>
+</h3>
+<p>Various Methods:</p>
+<ol>
+<li>Markov Chain Monto Carlo</li>
+<li>Binomial distribution</li>
+</ol>
+<h3 id="step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1">
+  Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$
+  <a class="anchor" href="#step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1">#</a>
+</h3>
+<p>Monto Carlo approximation</p>
+<ul>
+<li>Developed in statistical physics during atomic bomb period</li>
+<li>Named after the plush gambling casino</li>
+</ul>
+<p>The <strong>expected values</strong> are what typically asked</p>
+<p>$$
+\mathbb{E}[f(X)] = \int f(s) p(x)dx \approx \frac{1}{N}\sum^{N}<em>{s = 1}f(x</em>{s}), \text{ where } s \in N,  x_{s} \sim p(x)
+$$
+<strong>aka. Monte Carlo Integration (canonical form)</strong></p>
+<hr>
+<h2 id="-the-advantage-of-monto-carlo-over-numerical-integration">
+  😜 The Advantage of Monto Carlo Over Numerical Integration
+  <a class="anchor" href="#-the-advantage-of-monto-carlo-over-numerical-integration">#</a>
+</h2>
+<p><strong>Numerical integration</strong> (like Simpson&rsquo;s Rule, Trapezoidal Rule, or grid-based methods) evaluates the function f(x) at <strong>uniform intervals</strong> across the entire domain—even in regions where the function contributes <strong>very little or nothing</strong> to the integral (e.g., $p(x) \approx 0$)</p>
+<ul>
+<li>In contrast, <strong>Monte Carlo integration</strong> samples values of x <strong>according to the probability distribution p(x)</strong>. This ensures that:
+<ul>
+<li>Most samples fall in <strong>high-probability regions</strong>
+<strong>Note</strong>:</li>
+</ul>
+</li>
+<li>In short, Monte Carlo is simply just an expected value calculation on top of random function $f\left( \cdot \right)$ sample</li>
+</ul>
+<blockquote>
+<p>[! hint] It was never the formula that made Monto Carlo unique, but from the <strong>analytical standpoint</strong>; it is a useful perspective to estimate $f(x)$ based on important <em>weights</em>; and it <strong>fits well on high dimension space</strong></p></blockquote>
+<hr>
+<h2 id="example">
+  📘Example
+  <a class="anchor" href="#example">#</a>
+</h2>
+<h3 id="delta-example-1--change-of-variables-the-mc-way">
+  $\Delta$ Example 1.  Change of Variables, the MC way
+  <a class="anchor" href="#delta-example-1--change-of-variables-the-mc-way">#</a>
+</h3>
+<p>$$y = f(x)$$
+$$x \sim \text{Uni(-1,1)}, y = x^2$$
+Approximate p(y) by drawing many samples from $p(x)$ and create distribution</p>
+<blockquote>
+<p>insert mcapproximated code simulation</p></blockquote>
+<p>Figure 2.19 Estimating π by Monte Carlo integration. Blue points are inside the circle, red crosses are outside.</p>
+<h3 id="-example-2-estimating-pi-by-monte-carlo-integration">
+  🎤 Example 2. Estimating $\pi$ by Monte Carlo Integration
+  <a class="anchor" href="#-example-2-estimating-pi-by-monte-carlo-integration">#</a>
+</h3>
+<p><strong>Function definition</strong>:
+$$f(x,y) = \begin{cases}
+1 &amp; (x^2 + y^2 \leq r^2) \
+0 &amp; \text{otherwise}
+\end{cases}
+$$
+We know that $\pi = A / r^2$. Here we define the raw <strong>Area Integral of Circle</strong> as
+$$
+A = \int^{r}<em>{-r} \int^{r}</em>{-r} \mathbb{I}(x^2 +y^2 \leq r^2) ,dx,dy
+$$</p>
+<ul>
+<li>$\mathbb{I}()$ is an indicator function that is going to evaluate 1 or 0 based on the condition
+Now, let $p(x)$ and $p(y)$ be defined as part of the uniform distribution on $[-r, r]$ range. Therefore probabilities are as $p(x) = p(y) =\frac{1}{2r}$</li>
+</ul>
+<p><strong>The Monte Carlo Integral</strong>
+$$
+A = (2r)(2r) \iint f(x, y) \cdot p(x) \cdot p(y), dx, dy \
+\approx 4r^2 \cdot \frac{1}{S} \sum_{s=1}^S f(x_s, y_s)
+$$</p>
+<p><strong>Note:</strong></p>
+<ul>
+<li>The $4r^2$ factor scales back up after uniform sampling over $[-r, r]^2$, whose joint density is $p(x)p(y) = \frac{1}{4r^2}$.</li>
+<li>Since uniform sampling gives us $\mathbb{E}[f(x, y)] = \frac{1}{4r^2} \iint f(x, y), dx, dy$, we multiply by $4r^2$ to recover the original integral.</li>
+</ul>
+<h3 id="example-3-accuracy-of-monte-carlo">
+  🎯Example 3. Accuracy of Monte Carlo
+  <a class="anchor" href="#example-3-accuracy-of-monte-carlo">#</a>
+</h3>
+<p>Relatinship of Normail Distrbution to Monte Carlo</p>
+<p>$$(\hat{\mu} - \mu) \rightarrow \mathcal{N}(0, \frac{\sigma^2}{S})$$
+where</p>
+<p><strong>Variance</strong> is defined as
+$$\sigma^2 = \mathbb{E}[f(X)^2] -\mathbb{E}[f(X)]^2 \Leftrightarrow \frac{1}{S}\sum^S_{1}(f(x_{s} - \hat{\mu}))^2$$</p>
+<p><strong>Confidence</strong> Interval is defined as</p>
+<p>$$
+P\left{ \mu - 1.96 \cdot \frac{\hat{\sigma}}{\sqrt{S}}
+\leq \hat{\mu} \leq
+\mu + 1.96 \cdot \frac{\hat{\sigma}}{\sqrt{S}} \right} \approx 0.95
+$$</p>
+<hr>
+<h2 id="reference">
+  Reference
+  <a class="anchor" href="#reference">#</a>
+</h2>
+<p>[1] K. P. Murphy, <em>Probabilistic Machine Learning: An Introduction</em>, MIT Press, 2023.
+- ch 2.7</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-steps-to-obtain-our-quantity-of-interest">🏃‍♂️The Steps to Obtain Our Quantity of Interest</a>
+          <ul>
+            <li><a href="#step-1--generate-s_n-from-the-distribution-x_1-x_n">Step 1 : Generate $S_n$ from the distribution $X_1, &hellip;X_n$</a></li>
+            <li><a href="#step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1">Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$</a></li>
+          </ul>
+        </li>
+        <li><a href="#-the-advantage-of-monto-carlo-over-numerical-integration">😜 The Advantage of Monto Carlo Over Numerical Integration</a></li>
+        <li><a href="#example">📘Example</a>
+          <ul>
+            <li><a href="#delta-example-1--change-of-variables-the-mc-way">$\Delta$ Example 1.  Change of Variables, the MC way</a></li>
+            <li><a href="#-example-2-estimating-pi-by-monte-carlo-integration">🎤 Example 2. Estimating $\pi$ by Monte Carlo Integration</a></li>
+            <li><a href="#example-3-accuracy-of-monte-carlo">🎯Example 3. Accuracy of Monte Carlo</a></li>
+          </ul>
+        </li>
+        <li><a href="#reference">Reference</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

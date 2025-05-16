@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Henry8r8w Blog</title>
+    <title>Blog Page on Henry8r8w Blog</title>
     <link>http://localhost:1313/docs/blog/</link>
-    <description>Recent content in Blog on Henry8r8w Blog</description>
+    <description>Recent content in Blog Page on Henry8r8w Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/docs/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2025 2nd Pt</title>
-      <link>http://localhost:1313/docs/blog/2025---2nd-pt/</link>
+      <title>Year 2025</title>
+      <link>http://localhost:1313/docs/blog/year-2025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/blog/2025---2nd-pt/</guid>
-      <description>&lt;h3 id=&#34;sup&#34;&gt;&#xA;  Sup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;</description>
+      <guid>http://localhost:1313/docs/blog/year-2025/</guid>
+      <description>&lt;h3 id=&#34;spring-2025&#34;&gt;&#xA;  Spring 2025&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#spring-2025&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I aint got no job, so I gotta learn some stuff to get my stuff together. I want MLE job and potentially finacne. SO much crazy amout of topics to study. Creating projects seemed hard, but we&amp;rsquo;ll go from there&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

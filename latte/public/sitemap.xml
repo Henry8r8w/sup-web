@@ -4,41 +4,29 @@
   <url>
     <loc>http://localhost:1313/docs/table-of-content/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/blog/2025---2nd-pt/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/codes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/projects/</loc>
+    <loc>http://localhost:1313/docs/blog/year-2025/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/topics/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/papers/</loc>
+    <loc>http://localhost:1313/docs/topics/network-economics/matching-in-network/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/codes/monte-carlo/</loc>
+    <loc>http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/topics/computer-vision/</loc>
+    <loc>http://localhost:1313/docs/codes/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/table-of-content/economics/</loc>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/table-of-content/ml-engineering/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/mylife/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/topics/network-economics/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/topics/probabilistic-ml/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/topics/probability/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/topics/signals-system-and-inference/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

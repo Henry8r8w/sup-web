@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Intro: Traditional Decentralized Trade
+  #
+
+
+  Market Clearing Mechanism: Walrasian Auctioneer
+  #
+
+
+
+Prices are set by a central auctioneer to clear the market.
+
+
+Agents act as price takers; no strategic pricing or networked trade.
+
+
+Assumes:
+
+
+Anonymous transactions
+
+
+Goods and money flow through markets, not individual-to-individual (non-market mechanisms).
+
+
+
+
+However, in reality:
+
+Many trades happen through non-market mechanisms (e.g., labor, dating, organ exchange).
+
+
+
+
+  Decentralized Matching
+  #
+
+
+
+Modern matching theory models decentralized trade using bipartite graphs.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/topics/network-economics/matching-in-network/">
+  <meta property="og:site_name" content="Henry8r8w Blog">
+  <meta property="og:title" content="Henry8r8w Blog">
+  <meta property="og:description" content="Intro: Traditional Decentralized Trade # Market Clearing Mechanism: Walrasian Auctioneer # Prices are set by a central auctioneer to clear the market.
+Agents act as price takers; no strategic pricing or networked trade.
+Assumes:
+Anonymous transactions
+Goods and money flow through markets, not individual-to-individual (non-market mechanisms).
+However, in reality:
+Many trades happen through non-market mechanisms (e.g., labor, dating, organ exchange). Decentralized Matching # Modern matching theory models decentralized trade using bipartite graphs.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Matching in Network | Henry8r8w Blog</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/topics/network-economics/matching-in-network/">
+<link rel="stylesheet" href="/book.min.e9f68c3fff3d8236a489d16a9caf6de5e4d1a29c20eb4b5524e42cd30be4d319.css" integrity="sha256-6faMP/89gjakidFqnK9t5eTRopwg60tVJOQs0wvk0xk=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.027f247d01b24aedc787c9e6e43afa05720acae8c8bf417d1127d15a678b40c3.js" integrity="sha256-An8kfQGySu3Hh8nm5Dr6BXIKyujIv0F9ESfRWmeLQMM=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});">
+</script>
+
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Henry8r8w Blog</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/table-of-content/" class="">Table of Content</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Blog Page</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/blog/year-2025/" class="">Year 2025</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-45f7e668b052b0157b3dc6687bd20731" class="toggle" checked />
+    <label for="section-45f7e668b052b0157b3dc6687bd20731" class="flex justify-between">
+      <a role="button" class="">Topics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/network-economics/" class="">Networks Economics</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/network-economics/matching-in-network/" class="active">Matching in Network</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/probabilistic-ml/" class="">Probabilistic ML</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/topics/probabilistic-ml/monte-carlo/" class="">Monte Carlo</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/codes/" class="">Code Simulations</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2877beafd626fd4da2dc2aa6eb4a5e75" class="toggle"  />
+    <label for="section-2877beafd626fd4da2dc2aa6eb4a5e75" class="flex justify-between">
+      <a href="/docs/mylife/" class="">My Life</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/Henry8r8w"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Matching in Network</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#intro-traditional-decentralized-trade">Intro: Traditional Decentralized Trade</a>
+          <ul>
+            <li><a href="#market-clearing-mechanism-walrasian-auctioneer">Market Clearing Mechanism: Walrasian Auctioneer</a></li>
+          </ul>
+        </li>
+        <li><a href="#decentralized-matching">Decentralized Matching</a></li>
+        <li><a href="#bipartite-graphs-and-matching-theory">Bipartite Graphs and Matching Theory</a>
+          <ul>
+            <li><a href="#key-concepts">Key Concepts</a></li>
+            <li><a href="#constricted-set">Constricted Set</a></li>
+            <li><a href="#example-graph-non-perfect-matching">Example Graph (Non-Perfect Matching)</a></li>
+            <li><a href="#example-graph-perfect-matching">Example Graph (Perfect Matching)</a></li>
+          </ul>
+        </li>
+        <li><a href="#centralized-vs-decentralized">Centralized vs Decentralized</a></li>
+        <li><a href="#strategy-proof-matching">Strategy-Proof Matching</a></li>
+        <li><a href="#match-making-algorithm">Match Making Algorithm</a></li>
+        <li><a href="#the-basic-model">The basic model</a>
+          <ul>
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#preferred-seller-graph">Preferred-Seller Graph</a></li>
+            <li><a href="#example">Example</a></li>
+            <li><a href="#market-clearing-prices">Market CLearing Prices</a></li>
+            <li><a href="#efficiency">Efficiency</a></li>
+            <li><a href="#finding-market-clearnign-prices">Finding Market-Clearnign Prices</a></li>
+            <li><a href="#pareto-optimailty">Pareto optimailty</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="intro-traditional-decentralized-trade">
+  Intro: Traditional Decentralized Trade
+  <a class="anchor" href="#intro-traditional-decentralized-trade">#</a>
+</h2>
+<h3 id="market-clearing-mechanism-walrasian-auctioneer">
+  Market Clearing Mechanism: Walrasian Auctioneer
+  <a class="anchor" href="#market-clearing-mechanism-walrasian-auctioneer">#</a>
+</h3>
+<ul>
+<li>
+<p>Prices are set by a <strong>central auctioneer</strong> to clear the market.</p>
+</li>
+<li>
+<p>Agents act as <strong>price takers</strong>; no strategic pricing or networked trade.</p>
+</li>
+<li>
+<p>Assumes:</p>
+<ul>
+<li>
+<p>Anonymous transactions</p>
+</li>
+<li>
+<p>Goods and money flow through markets, not individual-to-individual (non-market mechanisms).</p>
+</li>
+</ul>
+</li>
+<li>
+<p>However, in reality:</p>
+<ul>
+<li>Many trades happen through <strong>non-market</strong> mechanisms (e.g., labor, dating, organ exchange).</li>
+</ul>
+</li>
+</ul>
+<h2 id="decentralized-matching">
+  Decentralized Matching
+  <a class="anchor" href="#decentralized-matching">#</a>
+</h2>
+<ul>
+<li>
+<p>Modern matching theory models decentralized trade using <strong>bipartite graphs</strong>.</p>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li>Medical residency matching (n-to-1)
+<ul>
+<li>they rank yours , you rank yours (linnk)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="bipartite-graphs-and-matching-theory">
+  Bipartite Graphs and Matching Theory
+  <a class="anchor" href="#bipartite-graphs-and-matching-theory">#</a>
+</h2>
+<p>A <strong>bipartite graph</strong> is a graph where:</p>
+<ul>
+<li>
+<p>Nodes are divided into two disjoint sets: <code>A</code> and <code>B</code>.</p>
+</li>
+<li>
+<p>Edges connect nodes <strong>only across sets</strong>, never within.</p>
+</li>
+</ul>
+<h3 id="key-concepts">
+  Key Concepts
+  <a class="anchor" href="#key-concepts">#</a>
+</h3>
+<h4 id="perfect-matching">
+  Perfect Matching
+  <a class="anchor" href="#perfect-matching">#</a>
+</h4>
+<p>A <strong>perfect matching</strong> is when every node in set <code>A</code> is matched to a unique node in set <code>B</code> and vice versa.</p>
+<h4 id="marriage-theorem-halls-theorem">
+  Marriage Theorem (Hall&rsquo;s Theorem)
+  <a class="anchor" href="#marriage-theorem-halls-theorem">#</a>
+</h4>
+<blockquote>
+<p>A bipartite graph has a perfect matching <strong>iff</strong> for every subset $S⊆AS \subseteq A$, the set of neighbors $N(S)⊆BN(S) \subseteq B$ satisfies:</p></blockquote>
+<p>$$|N(S)| \geq |S| ]$$</p>
+<p>If this condition is violated, the subset S is called a <strong>constricted set</strong>.</p>
+<hr>
+<h3 id="constricted-set">
+  Constricted Set
+  <a class="anchor" href="#constricted-set">#</a>
+</h3>
+<p><strong>Definition</strong>:<br>
+A subset S⊆AS \subseteq A is <strong>constricted</strong> if the number of neighbors it connects to in BB is <strong>strictly less</strong> than ∣S∣|S|. That is, ∣N(S)∣&lt;∣S∣|N(S)| &lt; |S|.</p>
+<p><strong>Implication</strong>: No matter how you match, <strong>at least one agent in SS</strong> will remain unmatched. This is a structural constraint—not a flaw of the algorithm.</p>
+<hr>
+<h3 id="example-graph-non-perfect-matching">
+  Example Graph (Non-Perfect Matching)
+  <a class="anchor" href="#example-graph-non-perfect-matching">#</a>
+</h3>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph LR
+  subgraph A [ ]
+    a1((a₁))
+    a2((a₂))
+    a3((a₃))
+  end
+
+  subgraph B [ ]
+    b1((b₁))
+    b2((b₂))
+    b3((b₃))
+  end
+
+  a1 --&gt; b1
+  a2 --&gt; b1
+  a2 --&gt; b2
+  a2 --&gt; b3
+  a3 --&gt; b1
+</code></pre><p>Now, consider the subset $S={a1,a3}S = {a_1, a_3}$</p>
+<ul>
+<li>
+<p>Neighbors $N(S)={b1}N(S) = { b_1 }$</p>
+</li>
+<li>
+<p>$∣N(S)∣=1&lt;2=∣S∣|N(S)| = 1 &lt; 2 = |S|$</p>
+</li>
+<li></li>
+</ul>
+<h3 id="example-graph-perfect-matching">
+  Example Graph (Perfect Matching)
+  <a class="anchor" href="#example-graph-perfect-matching">#</a>
+</h3>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph LR
+  subgraph A [ ]
+    a1((a₁))
+    a2((a₂))
+    a3((a₃))
+  end
+
+  subgraph B [ ]
+    b1((b₁))
+    b2((b₂))
+    b3((b₃))
+  end
+
+  a1 --&gt; b1
+  a2 --&gt; b1
+  a2 --&gt; b2
+  a2 --&gt; b3
+  a3 --&gt; b3
+</code></pre><hr>
+<h2 id="centralized-vs-decentralized">
+  Centralized vs Decentralized
+  <a class="anchor" href="#centralized-vs-decentralized">#</a>
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Centralized</th>
+          <th>Decentralized</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Central auctioneer (Walrasian)</td>
+          <td>Peer-to-peer interactions</td>
+      </tr>
+      <tr>
+          <td>Strategy-proof mechanisms</td>
+          <td>Strategic misreporting possible</td>
+      </tr>
+      <tr>
+          <td>One-to-one or n-to-1 matching</td>
+          <td>Risk of unmatched agents</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="strategy-proof-matching">
+  Strategy-Proof Matching
+  <a class="anchor" href="#strategy-proof-matching">#</a>
+</h2>
+<ul>
+<li>
+<p>Goal of <strong>market design</strong>: prevent strategic manipulation (e.g., lying to get better outcome).</p>
+</li>
+<li>
+<p>Algorithms like <strong>Deferred Acceptance (DA)</strong> are <strong>strategy-proof</strong> on one side.</p>
+</li>
+</ul>
+<h2 id="match-making-algorithm">
+  Match Making Algorithm
+  <a class="anchor" href="#match-making-algorithm">#</a>
+</h2>
+<h2 id="the-basic-model">
+  The basic model
+  <a class="anchor" href="#the-basic-model">#</a>
+</h2>
+<h3 id="setup">
+  Setup
+  <a class="anchor" href="#setup">#</a>
+</h3>
+<p><strong>Agents</strong></p>
+<ul>
+<li>some number of seller: B_s where i in s</li>
+<li>some number of Buyers: N_b, where j in b</li>
+</ul>
+<p><strong>Action space</strong></p>
+<ul>
+<li>Seller puts house up for sale for $p_i ≥ 0$</li>
+<li>Buyer can buy at most one house</li>
+</ul>
+<p>Preferences</p>
+<ul>
+<li>Sellers value house at 0 (this is a simplification w.l.o.g.)</li>
+<li>Buyers have some private valuation vij for each house</li>
+</ul>
+<p>Payoffs</p>
+<ul>
+<li>Sellers want to maximize selling price p_i</li>
+<li>Buyers want to maximize vij − pi  (their value - sale price for i hosue)
+Equilibrium</li>
+<li>Market-clearing prices set such that no player desires to deviate</li>
+<li>Sounds like Nash eqm, but not exactly the same concept</li>
+</ul>
+<p>To solve for equilibrium</p>
+<ul>
+<li>Given a buyer j, define a set of preferred sellers as those that maximize payoff</li>
+</ul>
+<h3 id="preferred-seller-graph">
+  Preferred-Seller Graph
+  <a class="anchor" href="#preferred-seller-graph">#</a>
+</h3>
+<ul>
+<li>Given price vector s, construct <strong>preferred seller</strong> graph as follows
+<ul>
+<li>There exists a link between buyer and seller if buying from that seller maximizes utility</li>
+<li>With discrete prices, each is not nessesary unique, so this will not (in geenral) lead to a one-to-one matching</li>
+</ul>
+</li>
+<li>Notice that thre resulting graph is condition on p
+<ul>
+<li>In general, we are intersted in making statements about mapping from p to graph</li>
+</ul>
+</li>
+</ul>
+<h3 id="example">
+  Example
+  <a class="anchor" href="#example">#</a>
+</h3>
+<p>Agents</p>
+<ul>
+<li>three sellers / houses: a, b, c</li>
+</ul>
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Buyers</th>
+      <th colspan="3">Sellers</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>a</th>
+      <th>b</th>
+      <th>c</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>x</td>
+      <td>12</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>y</td>
+      <td>8</td>
+      <td>7</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>z</td>
+      <td>7</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+- Three buyers with valuation as follows
+	- value vecotr: 
+		- x: (a:12, b: 4, c : 2)
+		- y: (a:8, b: 7, : c 6)
+		- z: (a:7, b:5, c: 2)
+- Three sellers: abc with price vectors as follows (which we will be testing)
+	- price vector:  (5, 2, 0);(2,1,0); (3,1, 0)
+<p>Sellers action: max{p_i}
+Buyers action: { vij − pi}
+note:</p>
+<ul>
+<li>this is a naive process, because equilibirum could exit with more than one kind of price vector</li>
+</ul>
+<h3 id="market-clearing-prices">
+  Market CLearing Prices
+  <a class="anchor" href="#market-clearing-prices">#</a>
+</h3>
+<ul>
+<li>If the resulting preferred-seller graph has perfect matching
+Theroem:</li>
+<li>For any set of buyer valuations, there exists a set of market-clearing prices</li>
+<li>But for only some set of selll prices, there exist a set of market-clearing valuation</li>
+</ul>
+<h3 id="efficiency">
+  Efficiency
+  <a class="anchor" href="#efficiency">#</a>
+</h3>
+<p>effiicney can be biased towards seller or buyer, whihc is something that we can control (simuilate)</p>
+<p>trasnfer utility matching model
+$$
+\text{Welfare} = \underbrace{\sum_i p_i}<em>{\text{Seller utility}} + \underbrace{\sum_j (v</em>{ij} - p_j)}_{\text{Buyer utility}}
+$$
+Efficent is max{Welfare}</p>
+<p>Theorem</p>
+<ul>
+<li>For any set of market-clearing prices, a perfect matching in the resulting preferred-seller graph has the maximum total valuation of any assignment of buyers to sellers</li>
+</ul>
+<h3 id="finding-market-clearnign-prices">
+  Finding Market-Clearnign Prices
+  <a class="anchor" href="#finding-market-clearnign-prices">#</a>
+</h3>
+<p>Without a price vecotr given, how would we have market clearing rpices?</p>
+<p>TO make compairons</p>
+<ul>
+<li>total welfare</li>
+<li>consumer and seller surplus in the total welfare
+Algorithm</li>
+</ul>
+<pre tabindex="0"><code>At iteration 1, set all prices to 0 
+At each iteration, 
+- 1 Re-scale all prices so that smallest one is 0 
+- 2 Construct preferred-seller network 
+- 3 If there is a perfect matching (no constricted set), then we’re done 
+- 4 If there is a constricted set of buyers, raise price of neighbors of buyers in that set each by 1 unit
+</code></pre><h3 id="pareto-optimailty">
+  Pareto optimailty
+  <a class="anchor" href="#pareto-optimailty">#</a>
+</h3>
+<p>This is a type of ascending price auction Start at lowest price that will get all sellers to participate In general, it will find a low price</p>
+<p>In most cases, we can uniformly raise the price by some amount and still get the same transactions Decreasing price auction will in general find a higher price</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#intro-traditional-decentralized-trade">Intro: Traditional Decentralized Trade</a>
+          <ul>
+            <li><a href="#market-clearing-mechanism-walrasian-auctioneer">Market Clearing Mechanism: Walrasian Auctioneer</a></li>
+          </ul>
+        </li>
+        <li><a href="#decentralized-matching">Decentralized Matching</a></li>
+        <li><a href="#bipartite-graphs-and-matching-theory">Bipartite Graphs and Matching Theory</a>
+          <ul>
+            <li><a href="#key-concepts">Key Concepts</a></li>
+            <li><a href="#constricted-set">Constricted Set</a></li>
+            <li><a href="#example-graph-non-perfect-matching">Example Graph (Non-Perfect Matching)</a></li>
+            <li><a href="#example-graph-perfect-matching">Example Graph (Perfect Matching)</a></li>
+          </ul>
+        </li>
+        <li><a href="#centralized-vs-decentralized">Centralized vs Decentralized</a></li>
+        <li><a href="#strategy-proof-matching">Strategy-Proof Matching</a></li>
+        <li><a href="#match-making-algorithm">Match Making Algorithm</a></li>
+        <li><a href="#the-basic-model">The basic model</a>
+          <ul>
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#preferred-seller-graph">Preferred-Seller Graph</a></li>
+            <li><a href="#example">Example</a></li>
+            <li><a href="#market-clearing-prices">Market CLearing Prices</a></li>
+            <li><a href="#efficiency">Efficiency</a></li>
+            <li><a href="#finding-market-clearnign-prices">Finding Market-Clearnign Prices</a></li>
+            <li><a href="#pareto-optimailty">Pareto optimailty</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
