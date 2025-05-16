@@ -1,14 +1,14 @@
 {
   "name": "Henry8r8w Blog",
   "short_name": "Henry8r8w Blog",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/sup-web/",
+  "scope": "/sup-web/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/sup-web/favicon.svg",
       "sizes": "512x512"
     }
   ]

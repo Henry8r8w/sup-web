@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Life on Henry8r8w Blog</title>
-    <link>http://localhost:1313/docs/mylife/</link>
+    <link>http://localhost:1313/sup-web/docs/mylife/</link>
     <description>Recent content in My Life on Henry8r8w Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/docs/mylife/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sup-web/docs/mylife/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

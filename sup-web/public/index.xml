@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Henry8r8w Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/sup-web/</link>
     <description>Recent content in Home on Henry8r8w Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sup-web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Year 2025</title>
-      <link>http://localhost:1313/docs/blog/year-2025/</link>
+      <link>http://localhost:1313/sup-web/docs/blog/year-2025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/blog/year-2025/</guid>
+      <guid>http://localhost:1313/sup-web/docs/blog/year-2025/</guid>
       <description>&lt;h3 id=&#34;spring-2025&#34;&gt;&#xA;  Spring 2025&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#spring-2025&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I aint got no job, so I gotta learn some stuff to get my stuff together. I want MLE job and potentially finacne. SO much crazy amout of topics to study. Creating projects seemed hard, but we&amp;rsquo;ll go from there&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/topics/network-economics/matching-in-network/</link>
+      <link>http://localhost:1313/sup-web/docs/topics/network-economics/matching-in-network/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/topics/network-economics/matching-in-network/</guid>
+      <guid>http://localhost:1313/sup-web/docs/topics/network-economics/matching-in-network/</guid>
       <description>&lt;h2 id=&#34;intro-traditional-decentralized-trade&#34;&gt;&#xA;  Intro: Traditional Decentralized Trade&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#intro-traditional-decentralized-trade&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;market-clearing-mechanism-walrasian-auctioneer&#34;&gt;&#xA;  Market Clearing Mechanism: Walrasian Auctioneer&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#market-clearing-mechanism-walrasian-auctioneer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prices are set by a &lt;strong&gt;central auctioneer&lt;/strong&gt; to clear the market.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Agents act as &lt;strong&gt;price takers&lt;/strong&gt;; no strategic pricing or networked trade.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Assumes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Anonymous transactions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Goods and money flow through markets, not individual-to-individual (non-market mechanisms).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;However, in reality:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Many trades happen through &lt;strong&gt;non-market&lt;/strong&gt; mechanisms (e.g., labor, dating, organ exchange).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;decentralized-matching&#34;&gt;&#xA;  Decentralized Matching&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#decentralized-matching&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Modern matching theory models decentralized trade using &lt;strong&gt;bipartite graphs&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/</link>
+      <link>http://localhost:1313/sup-web/docs/topics/probabilistic-ml/monte-carlo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/topics/probabilistic-ml/monte-carlo/</guid>
+      <guid>http://localhost:1313/sup-web/docs/topics/probabilistic-ml/monte-carlo/</guid>
       <description>&lt;h2 id=&#34;the-steps-to-obtain-our-quantity-of-interest&#34;&gt;&#xA;  🏃‍♂️The Steps to Obtain Our Quantity of Interest&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#the-steps-to-obtain-our-quantity-of-interest&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;step-1--generate-s_n-from-the-distribution-x_1-x_n&#34;&gt;&#xA;  Step 1 : Generate $S_n$ from the distribution $X_1, &amp;hellip;X_n$&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1--generate-s_n-from-the-distribution-x_1-x_n&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Various Methods:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Markov Chain Monto Carlo&lt;/li&gt;&#xA;&lt;li&gt;Binomial distribution&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1&#34;&gt;&#xA;  Step 2: Given the Random Samples on $f(x_{s})$ we approximate the empirical distribution of ${f(x_s)}^n_1$&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-given-the-random-samples-on-fx_s-we-approximate-the-empirical-distribution-of-fx_sn_1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Monto Carlo approximation&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed in statistical physics during atomic bomb period&lt;/li&gt;&#xA;&lt;li&gt;Named after the plush gambling casino&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The &lt;strong&gt;expected values&lt;/strong&gt; are what typically asked&lt;/p&gt;</description>
     </item>
   </channel>
