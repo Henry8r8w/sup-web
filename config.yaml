@@ -1,0 +1,43 @@
+baseURL: "https://Henry8r8w.com"
+languageCode: "en-us"
+title: "Henry8r8w Blog"
+theme: "hugo-book"
+
+# enable last edit info
+# enableGitInfo: true
+
+# Enable KaTeX / Mermaid and configure Table of Contents
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+params:
+  BookTheme: "auto"       # auto-switch theme based on visitor browser preference
+  BookToC: true           # allow table of contents on the right
+  BookSection: "docs"     # main content section
+  BookSearch: true        # enable search bar
+  # BookLogo: "logo.png"   # optional logo path
+
+# Language Toggle
+#languages:
+#  en:
+#    contentDir: "content.en"
+#    languageName: "English"
+#    weight: 1
+#  zh:
+#   contentDir: "content.zh"
+#    languageName: "中文"
+#    weight: 2
+
+menu:
+  after:
+    - name: "Github"
+      url: "https://github.com/Henry8r8w"
+      weight: 10
+
+caches:
+  images:
+    dir: :cacheDir/images
