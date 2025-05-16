@@ -3,6 +3,10 @@ languageCode: "en-us"
 title: "Henry8r8w Blog"
 theme: "hugo-book"
 
+module:
+  imports:
+    - path: github.com/alex-shpak/hugo-book
+
 # enable last edit info
 # enableGitInfo: true
 
